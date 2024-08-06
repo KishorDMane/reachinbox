@@ -28,7 +28,7 @@ app.use("/api/mail", router);
 app.use("/", outlookRouter);
 
 app.get("/", async (req, res) => {
-   res.redirect("https://documenter.getpostman.com/view/31971527/2sA35D43FE")
+   res.redirect("working")
 });
 
 app.listen(process.env.PORT, () => {
